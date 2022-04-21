@@ -1,0 +1,280 @@
+body{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+#parent-1{
+    width: 350px;
+    aspect-ratio: 1;
+    background-color: #dbd9ea; 
+    display: flex;
+    flex-direction: column;  
+    margin-top: 20px;
+}
+
+#parent-1 h5,h1,.link{
+    position: relative;
+    left: 80px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+#parent-1 h5{
+    color:#1d1a4d;
+}
+
+#parent-1 a{
+    color: #7571ae;
+}
+
+#parent-2{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    margin-right: 10%; 
+    /* border: 1px black solid;  */
+    height:50px ;
+}
+
+.child{
+    width: 55px;
+    height: 10px;
+    padding: px;
+    font-size: 12px;
+    font-family: sans-serif;
+    color:#5a587d;
+    cursor: pointer;
+    text-align:center;
+    padding: 2%; 
+    /* border: 1px black solid; */
+    
+}
+
+.child:hover{
+    background-color:#dbd9ea ;
+    
+}
+.child-about{
+    width: 55px;
+    height: 10px;
+    padding: 2%;
+    font-size: 12px;
+    font-family: sans-serif;
+    /* color:#5a587d; */
+    cursor: pointer;
+    text-align:center;
+    background-color:#dbd9ea ;
+    /* border: 1px solid black; */
+}
+
+#parent-2 .child,.contact,.child-about{
+color:#5a587d ;
+}
+#parent-2 .child-about,a{
+    text-decoration: none;
+    color: #5a587d;
+}
+
+#parent-3{
+    width: 100%;  
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-top: 450px;
+    right: 0px;
+}
+
+#peragraph{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    text-align: end;
+    margin-top: 7%;
+}
+#peragraph p{
+    width: 65%;
+    margin-right: 10%;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+ #img{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.pinki-image{
+    width: 80%;
+    margin-top: 50px;
+}
+
+#parent-3{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10%;
+}
+
+#left-div{
+    width: 30%;
+    height: 30%;
+}
+ 
+#right-div{
+    width: 50%;
+    margin-right: 10%;  
+    font-family: sans-serif; 
+}
+
+ .tanvi-pic1{
+     width: 100%;
+     height: 100%;
+ }
+
+.top-pera{
+    width: 100%;
+    color: #212F3D;
+}
+
+.middle-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8%;
+}
+
+  .middle-left-div{
+  width: 30%;
+    height: 30%;
+}
+
+ .middle-right-div{
+    width: 50%;
+    height: inherit;
+    margin-right: 10%;  
+    font-family: sans-serif;
+}
+
+ .middle-pic{
+     width: 100%;
+     height: 100%;
+ }
+
+.middle-pera{
+    width: 100%;
+    color: #212F3D;
+}
+
+.bottom-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8%;
+}
+
+
+.bottom-left-div{
+    width: 30%;
+    height: 30%;
+}
+
+.bottom-right-div{
+    width: 50%;
+    margin-right: 10%;
+    font-family: sans-serif
+    
+}
+
+.bottom-pic{
+    width: 100%;
+    height: 100%;
+}
+.bottom-pera{
+    width: 100%;
+    color: #212F3D;
+}
+
+.last-div{
+    width: 100%;
+    height: 350px;
+    background-color:#dbd9ea ;
+    margin-top: 8%;
+}
+
+.link2{
+    text-decoration: none;
+    color: #7571ae;
+    /* font-family:monospace; */
+    width: 200px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 30px;
+}
+
+.h5{
+    color: #1d1a4d;
+    margin-left: 80px;
+    margin-top: 50px;
+    
+}
+
+.umbrela{
+    width: 15px;
+    height: 15px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.span{
+    font-size: 13px;
+    color: #7571ae;
+    
+}
+ 
+.my-daughter{
+    font-family: sans-serif;
+    
+}
+ 
+.unorderd-list{
+    color:#7571ae;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
